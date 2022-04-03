@@ -1,0 +1,15 @@
+.parent {
+  color: red;
+  padding-left: 20px;
+  font-family: Arial, Verdana, sans-serif;
+}
+.parent:hover {
+  color: blue;
+}
+.parent:after {
+  content: "";
+  display: block;
+}
+.container .parent {
+  background: white;
+}/*# sourceMappingURL=style.css.map */

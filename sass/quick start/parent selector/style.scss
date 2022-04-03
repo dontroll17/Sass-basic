@@ -1,0 +1,22 @@
+$color: red;
+$color-hover: blue;
+$padding: 20px;
+$font: Arial, Verdana, sans-serif;
+
+.parent {
+    color: $color;
+    padding-left: $padding;
+    font-family: $font;
+
+    &:hover {
+        color: $color-hover;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+    }
+    .container & {
+        background: white;
+    }
+}
