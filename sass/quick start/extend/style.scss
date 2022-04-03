@@ -1,0 +1,16 @@
+%table {
+    background: red;
+    color: blue;
+    border-radius: 20px;
+    tr{
+        color: white;
+    }
+}
+
+.table1 {
+    @extend %table;
+}
+
+.table2 {
+    @extend %table;
+}

@@ -1,0 +1,8 @@
+.table2, .table1 {
+  background: red;
+  color: blue;
+  border-radius: 20px;
+}
+.table2 tr, .table1 tr {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
