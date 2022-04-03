@@ -1,0 +1,7 @@
+@function multiplyPadding($value, $value2) {
+    @return $value * $value2;
+}
+
+.block1 {
+    padding: multiplyPadding(5px, 2);
+}
