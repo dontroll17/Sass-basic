@@ -1,0 +1,18 @@
+$backgroundColor: aquamarine;
+$heightBody: 100vh;
+$zero: 0;
+
+body {
+    background: $backgroundColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: $heightBody;
+    padding: $zero;
+    margin: $zero;
+    h1 {
+        font-size: 72px;
+        margin: $zero;
+    }
+}
