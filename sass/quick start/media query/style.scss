@@ -1,0 +1,9 @@
+$mobile: 300px;
+$table: 1024px;
+
+.block1{
+    padding: 10px;
+    @media screen and (max-width: $mobile) {
+        color:blue;
+    }
+}

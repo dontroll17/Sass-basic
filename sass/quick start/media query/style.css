@@ -1,0 +1,8 @@
+.block1 {
+  padding: 10px;
+}
+@media screen and (max-width: 300px) {
+  .block1 {
+    color: blue;
+  }
+}/*# sourceMappingURL=style.css.map */
