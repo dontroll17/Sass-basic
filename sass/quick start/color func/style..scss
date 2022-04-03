@@ -1,0 +1,7 @@
+$color: blue;
+button {
+    background: $color;
+    &:hover {
+        background: darken($color, 25%);
+    }
+}
