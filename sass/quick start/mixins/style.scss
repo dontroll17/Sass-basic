@@ -1,0 +1,14 @@
+/*@mixin name(<...args>){...}*/
+@mixin flex($align: center) {
+    display: flex;
+    align-items: $align;
+    justify-content: $align;
+}
+
+.block {
+    @include flex();
+}
+
+.block2 {
+    @include flex(flex-start);
+}
